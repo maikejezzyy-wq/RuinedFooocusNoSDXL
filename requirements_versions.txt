@@ -1,0 +1,6 @@
+wheel
+packaging
+pygit2
+setuptools==80.9.0
+torchruntime==1.33.0
+cffi==2.0.0
