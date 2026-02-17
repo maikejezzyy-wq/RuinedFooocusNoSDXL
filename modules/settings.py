@@ -7,15 +7,15 @@ import shared
 class SettingsManager:
     DEFAULT_SETTINGS = {
         "advanced_mode": False,
-        "image_number": 1,
-        "seed_random": True,
-        "seed": 0,
+        "image_number": 2,
+        "seed_random": False,
+        "seed": -1,
         "style": ["Style: sai-cinematic"],
         "prompt": "",
         "negative_prompt": "",
         "performance": "Speed",
         "resolution": "1152x896 (4:3)",
-        "base_model": "sd_xl_base_1.0_0.9vae.safetensors",
+        "base_model": "none",
         "lora_1_model": "None",
         "lora_1_weight": 0.5,
         "lora_2_model": "None",
@@ -27,7 +27,7 @@ class SettingsManager:
         "lora_5_model": "None",
         "lora_5_weight": 0.5,
         "theme": "None",
-        "auto_negative_prompt": False,
+        "auto_negative_prompt": True,
         "OBP_preset": "Standard",
         "hint_chance": 25,
     }
