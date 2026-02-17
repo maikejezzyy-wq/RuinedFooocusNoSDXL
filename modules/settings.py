@@ -15,7 +15,7 @@ class SettingsManager:
         "negative_prompt": "",
         "performance": "Speed",
         "resolution": "1152x896 (4:3)",
-        "base_model": "none",
+        "base_model": "amIRealAmirealV47_amirealV47.safetensors",
         "lora_1_model": "None",
         "lora_1_weight": 0.5,
         "lora_2_model": "None",
